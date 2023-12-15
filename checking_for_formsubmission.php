@@ -1,10 +1,10 @@
 <?php
 if(isset($_post['submit'])){
-    echo "it works";
-
+   $username = $_POST["username"];
+    $password = $_POST["password"];
+ echo "hello".$username;
+ echo "your password".$password;
 }
-
-
 
 
 ?>
@@ -18,8 +18,8 @@ if(isset($_post['submit'])){
 <body>
 
 <form action ="form.php"method="post">
-<input type ="text"placehold="enter username">
-<input type ="password"placehold="enter pasword"><br>
+<input type ="text"name ="username"placehold="enter username">
+<input type ="password"name ="pasword"placehold="enter pasword"><br>
 
 <input type="submit" name="submit">
 
