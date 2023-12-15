@@ -38,9 +38,9 @@ if(!in_array($username,$name)){
     <title>Document</title>
 </head>
 <body>
-<form action ="form.php"method="post">
+<form action ="form_process.php"method="post">
 <input type ="text"name ="username"placehold="enter username">
-<input type ="password"name ="pasword"placehold="enter pasword"><br>
+<input type ="password"name ="password"placehold="enter pasword"><br>
 <input type="submit" name="submit">
 </form>
     
